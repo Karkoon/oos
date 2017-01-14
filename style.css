@@ -8,14 +8,16 @@ body {
 }
 
 .draggable {
-	width: auto;
-	height: auto;
+	width: 25%;
+	height: 25%;
 	border-color: black;
 	padding-bottom: 45px;
 	border-width: 1px;
 	border-style: solid;
 	display: inline-block;
+	position: absolute !important;
 	background: rgb(237, 230, 200);
+	z-index: 20;
 }
 
 .title {
