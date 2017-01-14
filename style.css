@@ -17,7 +17,7 @@ body {
 	display: inline-block;
 	position: absolute !important;
 	background: rgb(237, 230, 200);
-	z-index: 20;
+	z-index: 1;
 }
 
 .title {

@@ -12,8 +12,9 @@ $(function () {
 			if (biggestZIndex < z_index) {
 				biggestZIndex = z_index;
 			}
+			$(".title").text($("iframe").attr("src") + " " + $(".title").parent().css('zIndex'));
 		});
-		$(this).css('z-index', biggestZIndex + 1);
+		$(this).css('z-index', parseInt(biggestZIndex) + 1);
 	});
-	$(".title").text($("iframe").attr("src"));
+	$(".title").text($("iframe").attr("src") + " " + $(".title").parent().css('zIndex'));
 });
